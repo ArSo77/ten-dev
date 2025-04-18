@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Frontend: 
+- Vue 3
+- Typescript 5
+- Twilwind 4
+
+Backend oraz baza danych:
+- Supabase

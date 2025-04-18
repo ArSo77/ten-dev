@@ -1,0 +1,116 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Dokument wymagań produktu (PRD) - RacePilot Connect
+## 1. Przegląd produktu
+RacePilot Connect to aplikacja służąca do szybkiego przesyłania kluczowych informacji od Race Directora do Pilotów podczas wyścigów dronów. System umożliwia centralne wysyłanie powiadomień push, wykorzystując minimalną integrację z Supabase. Aplikacja posiada interfejs dla Race Directora, który pozwala na tworzenie krótkich wiadomości, oraz moduł PWA dla Pilotów, umożliwiający odbiór i przegląd ostatnich powiadomień.
+
+Cel produktu:
+- Zapewnienie szybkiej i niezawodnej komunikacji w trakcie wydarzeń.
+- Umożliwienie Race Directorowi wysyłania kluczowych wiadomości do wszystkich uczestniczących Pilotów.
+- Ułatwienie odbioru informacji przez Pilotów poprzez aplikację PWA dostępna na urządzeniach iOS oraz Android.
+
+Technologie:
+- Integracja z platformą Supabase.
+- Wykorzystanie standardowych mechanizmów autentykacji.
+- Aplikacja PWA dla urządzeń mobilnych.
+
+Wersja MVP:
+- System prostych kont użytkowników z rozróżnieniem ról.
+- Wysyłka powiadomień push do wszystkich Pilotów.
+- Interfejs Race Directora do tworzenia i wysyłania wiadomości.
+- Widok w aplikacji mobilnej z ostatnimi 5 powiadomieniami.
+
+## 2. Problem użytkownika
+Race Directorzy często mają trudności z szybkim i efektywnym przekazaniem kluczowych informacji do Pilotów w trakcie wyścigów dronów przy użyciu tradycyjnych metod komunikacji. Brak centralnej platformy utrudnia natychmiastowy transfer istotnych danych, co może wpływać na bezpieczeństwo oraz przebieg wydarzenia.
+
+Wymagania wynikające z problemu:
+- Natychmiastowe powiadomienia push.
+- Centralne zarządzanie komunikacją.
+- Potwierdzenie wysyłki i diagnostyka błędów w razie niepowodzenia.
+
+## 3. Wymagania funkcjonalne
+1. System kont użytkowników:
+   - Rejestracja i logowanie przy użyciu loginu i domyślnego hasła.
+   - Podział użytkowników na role: Race Director i Pilot.
+
+2. Interfejs Race Directora:
+   - Możliwość tworzenia krótkich wiadomości tekstowych.
+   - Wyświetlanie pełnej, alfabetycznie posortowanej listy pilotów do wyboru odbiorców.
+   - Opcja wysyłki powiadomienia do wszystkich Pilotów.
+
+3. Mechanizm powiadomień:
+   - Integracja z Supabase do wysyłania powiadomień push.
+   - Predefiniowane i stałe ikony przy powiadomieniach.
+   - Potwierdzenie operacji wysyłki z informacją o sukcesie lub błędzie.
+
+4. Aplikacja PWA dla Pilotów:
+   - Odbieranie powiadomień push na urządzeniach mobilnych (iOS i Android).
+   - Wyświetlanie ostatnich 5 powiadomień, zawierających treść wiadomości, czas wysłania oraz ikonę.
+
+## 4. Granice produktu
+Zakres MVP nie obejmuje następujących funkcjonalności:
+- Wysyłanie powiadomień do pojedynczych Pilotów lub wybranych grup.
+- Zarządzanie wydarzeniami, wyścigami, harmonogramem czy listami startowymi.
+- Dwukierunkowa komunikacja umożliwiająca odpowiedzi od Pilotów.
+- Integracja z systemami pomiaru czasu oraz zarządzanie wynikami.
+- Obsługa załączników w powiadomieniach (np. zdjęć, filmów).
+
+Ograniczenia:
+- Użytkownik nie może modyfikować predefiniowanych ikon powiadomień.
+- Autentykacja odbywa się przy użyciu standardowych mechanizmów, bez wdrażania własnych rozwiązań.
+
+## 5. Historyjki użytkowników
+US-001
+Tytuł: Logowanie Race Directora
+Opis: Race Director loguje się do systemu przy użyciu loginu i domyślnego hasła.
+Kryteria akceptacji:
+- Użytkownik wprowadza poprawne dane logowania.
+- System umożliwia dostęp do panelu Race Directora.
+- W przypadku niepoprawnych danych, system wyświetla komunikat o błędzie.
+
+US-002
+Tytuł: Wysyłka powiadomienia przez Race Directora
+Opis: Race Director wybiera wszystkich Pilotów z alfabetycznie posortowanej listy, tworzy krótką wiadomość tekstową i wysyła powiadomienie.
+Kryteria akceptacji:
+- System umożliwia tworzenie wiadomości tekstowych.
+- Lista Pilotów jest wyświetlana w porządku alfabetycznym.
+- Po wysłaniu wiadomości, system wysyła powiadomienie push do wszystkich Pilotów.
+
+US-003
+Tytuł: Potwierdzenie operacji wysyłki
+Opis: Po wysłaniu powiadomienia, Race Director otrzymuje potwierdzenie sukcesu lub informację o wystąpieniu błędu.
+Kryteria akceptacji:
+- System wyświetla komunikat o sukcesie w ciągu 5 sekund od wysłania wiadomości.
+- W przypadku błędu, system informuje o przyczynie niepowodzenia.
+
+US-004
+Tytuł: Odbiór powiadomień w aplikacji PWA
+Opis: Pilot otwiera aplikację PWA na urządzeniu mobilnym (iOS lub Android) i odbiera powiadomienia push, a także przegląda listę ostatnich 5 powiadomień.
+Kryteria akceptacji:
+- Aplikacja PWA wyświetla listę ostatnich 5 powiadomień.
+- Każde powiadomienie zawiera treść, czas wysłania oraz predefiniowaną ikonę.
+- Powiadomienia są odbierane w czasie nieprzekraczającym 5 sekund od wysłania.
+
+US-005
+Tytuł: Uwierzytelnianie i autoryzacja użytkowników
+Opis: System wykorzystuje standardowe mechanizmy uwierzytelniania, aby zapewnić bezpieczny dostęp do aplikacji dla Race Directora i Pilotów.
+Kryteria akceptacji:
+- Użytkownicy logują się przy użyciu loginu i domyślnego hasła.
+- System przechowuje dane użytkowników w sposób bezpieczny.
+- Dostęp do poszczególnych funkcji systemu jest uzależniony od roli użytkownika (Race Director lub Pilot).
+
+US-006
+Tytuł: Wyświetlanie listy pilotów
+Opis: Race Director przegląda pełną, alfabetycznie posortowaną listę pilotów, ułatwiając wybór odbiorców wiadomości.
+Kryteria akceptacji:
+- Lista pilotów jest aktualna i posortowana alfabetycznie.
+- Interfejs umożliwia łatwe przeglądanie i wybór pilotów.
+
+## 6. Metryki sukcesu
+- X% Race Directorów korzystających z aplikacji wysyła przynajmniej jedno powiadomienie podczas wydarzenia.
+- Y% Pilotów zarejestrowanych w aplikacji i uczestniczących w wydarzeniu odbiera przynajmniej jedno powiadomienie wysłane przez Race Directora.
+- Średnia liczba powiadomień wysyłanych przez Race Directora na jedno wydarzenie wynosi Z.
+- Czas dostarczenia powiadomień nie przekracza 5 sekund od momentu wysłania, co jest kluczowym wskaźnikiem wydajności systemu. 

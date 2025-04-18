@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaff792f-225f-4246-87eb-defb9df22bfc" name="Changes" comment="Init project">
+      <change afterPath="$PROJECT_DIR$/.ai/prd.mdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ai/tech-stack.mdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/e2e/vue.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/eslint.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/TheWelcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/WelcomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/__tests__/HelloWorld.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/src/stores/counter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/tsconfig.vitest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msg-pilot/vitest.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ArSo77"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ArSo77/ten-dev",
+    "accountId": "b6580a47-5631-40c8-a7a9-a89ce7ed0cd7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2vuztUm4o2GZSyNA8TXyQ0fDumJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/arkadiuszsobieraj/Desktop/Projekty/tendev/msg-pilot/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaff792f-225f-4246-87eb-defb9df22bfc" name="Changes" comment="" />
+      <created>1745009962341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745009962341</updated>
+      <workItem from="1745009963602" duration="3028000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init project">
+      <option name="closed" value="true" />
+      <created>1745010016428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745010016428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init project" />
+  </component>
+</project>
