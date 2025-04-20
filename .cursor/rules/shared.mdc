@@ -9,28 +9,27 @@ alwaysApply: true
 
 ## Tech Stack
 
-- Astro 5
+- Vue 3
 - TypeScript 5
-- React 19
 - Tailwind 4
-- Shadcn/ui
+- Shadcn/vue
 
 ## Project Structure
 
 When introducing changes to the project, always follow the directory structure below:
 
-- `./src` - source code
-- `./src/layouts` - Astro layouts
-- `./src/pages` - Astro pages
-- `./src/pages/api` - API endpoints
-- `./src/middleware/index.ts` - Astro middleware
-- `./src/db` - Supabase clients and types
-- `./src/types.ts` - Shared types for backend and frontend (Entities, DTOs)
-- `./src/components` - Client-side components written in Astro (static) and React (dynamic)
-- `./src/components/ui` - Client-side components from Shadcn/ui
-- `./src/lib` - Services and helpers 
-- `./src/assets` - static internal assets
-- `./public` - public assets
+`./src` – główny katalog kodu źródłowego  
+`./src/main.ts` – główny punkt wejścia aplikacji Vue  
+`./src/App.vue` – główny (root) komponent aplikacji  
+`./src/components` – komponenty Vue; możesz tu także umieścić podfolder np. `ui` dla globalnych widgetów  
+`./src/views` – widoki (strony) aplikacji, powiązane z trasami w Vue Router  
+`./src/router` – konfiguracja tras z wykorzystaniem Vue Router  
+`./src/store` – miejsce na zarządzanie stanem (np. za pomocą Vuex lub Pinia)  
+`./src/api` – moduły/usługi do komunikacji z backendem  
+`./src/types.ts` – wspólne typy TypeScript dla frontend i backend (DTO, encje)  
+`./src/lib` – pomocnicze funkcje, serwisy i moduły narzędziowe  
+`./src/assets` – wewnętrzne zasoby statyczne, np. obrazy, style, czcionki  
+`./public` – publicznie dostępne pliki statyczne (np. `index.html`, favicon itp.)
 
 When modifying the directory structure, always update this section.
 
