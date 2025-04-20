@@ -9,26 +9,28 @@ alwaysApply: true
 
 ## Tech Stack
 
-- Vue 3
+- Astro 5
 - TypeScript 5
+- React 19
 - Tailwind 4
+- Shadcn/ui
 
 ## Project Structure
 
-When working on this Vue 3 project, please adhere to the following directory layout:
+When introducing changes to the project, always follow the directory structure below:
 
-- `./src` - Contains the main application source code for the Vue app.
-- `./src/components` - Vue single-file components forming the UI.
-- `./src/views` - Vue views corresponding to application routes.
-- `./src/router` - Configuration and route definitions for Vue Router.
-- `./src/store` - State management modules (using Vuex or Pinia).
-- `./src/assets` - Static assets such as images, fonts, and styles.
-- `./src/types` - Shared TypeScript types and interfaces.
-- `./src/utils` - Utility functions and helper modules.
-- `./src/services` - Services for API interactions and business logic.
-- `./public` - Public assets served directly.
-
-Ensure that any modifications to the directory structure are reflected in this section. 
+- `./src` - source code
+- `./src/layouts` - Astro layouts
+- `./src/pages` - Astro pages
+- `./src/pages/api` - API endpoints
+- `./src/middleware/index.ts` - Astro middleware
+- `./src/db` - Supabase clients and types
+- `./src/types.ts` - Shared types for backend and frontend (Entities, DTOs)
+- `./src/components` - Client-side components written in Astro (static) and React (dynamic)
+- `./src/components/ui` - Client-side components from Shadcn/ui
+- `./src/lib` - Services and helpers 
+- `./src/assets` - static internal assets
+- `./public` - public assets
 
 When modifying the directory structure, always update this section.
 
