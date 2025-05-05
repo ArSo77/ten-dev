@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import { apiHandler } from '../api';
 import UsersView from '../views/UsersView.vue';
+import MessagesView from '../views/MessagesView.vue';
 
 // Sprawdzamy czy jesteśmy w trybie developerskim
 const isDev = import.meta.env.DEV;
@@ -63,6 +64,11 @@ const router = createRouter({
       path: '/users',
       name: 'users',
       component: UsersView,
+    },
+    {
+      path: '/messages',
+      name: 'messages',
+      component: MessagesView,
     },
     {
       path: '/about',
