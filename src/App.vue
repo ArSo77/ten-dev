@@ -1,23 +1,33 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { onMounted } from 'vue'
+
+// Apply dark mode directly to body
+onMounted(() => {
+  document.body.style.backgroundColor = '#121212'
+  document.body.style.color = '#e0e0e0'
+})
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div class="bg-gray-900 text-gray-100 min-h-screen">
+    <header>
+      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <div class="wrapper">
+        <HelloWorld msg="You did it!" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/users">Users</RouterLink>
+        </nav>
+      </div>
+    </header>
 
-  <RouterView />
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>

@@ -1,4 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import './base.css';
+
+/* Override for dark mode */
+body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
 
 #app {
   max-width: 1280px;

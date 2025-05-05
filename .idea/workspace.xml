@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0397f467-0fd6-44ae-b40a-f1fa6d0afdab" name="Changes" comment="chore: add readme">
-      <change beforePath="$PROJECT_DIR$/.cursor/rules/api-supabase-astro-init.mdc" beforeDir="false" />
+    <list default="true" id="0397f467-0fd6-44ae-b40a-f1fa6d0afdab" name="Changes" comment="chore: add api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,20 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ArSo77/ten-dev",
-    "accountId": "b6580a47-5631-40c8-a7a9-a89ce7ed0cd7"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArSo77/ten-dev&quot;,
+    &quot;accountId&quot;: &quot;b6580a47-5631-40c8-a7a9-a89ce7ed0cd7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "/Users/arkadiuszsobieraj/Desktop/Projekty/tendev/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/arkadiuszsobieraj/Desktop/Projekty/tendev/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,6 +76,7 @@
     <MESSAGE value="init vue project" />
     <MESSAGE value="chore: add prd file" />
     <MESSAGE value="chore: add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add readme" />
+    <MESSAGE value="chore: add api" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add api" />
   </component>
 </project>
