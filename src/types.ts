@@ -41,6 +41,8 @@ type MessageEntity = Tables<'messages'>;
 export interface MessageDTO extends MessageEntity {
   // Optional list of recipient user IDs, provided in message details and creation responses
   recipients?: string[];
+  // Optional sender nickname for display
+  sender_nick?: string;
 }
 
 // 6. CreateMessageCommand
@@ -57,6 +59,7 @@ export interface PaginatedMessagesDTO {
   page: number;
   limit: number;
   total: number;
+  pages: number;
 }
 
 // 8. LoginCommand
